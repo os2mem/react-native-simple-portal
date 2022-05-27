@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { DeviceEventEmitter } from 'react-native'
 
 import type { PortalProps } from './types';
