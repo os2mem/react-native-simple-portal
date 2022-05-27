@@ -1,3 +1,8 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import { Host, Portal } from './components';
+
+export { Host, Portal };
+
+export default {
+  Host,
+  Portal,
+};
