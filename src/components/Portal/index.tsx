@@ -1,19 +1,18 @@
-import { useEffect } from 'react'
-import { DeviceEventEmitter } from 'react-native'
+import { useEffect } from 'react';
+import { DeviceEventEmitter } from 'react-native';
 
 import type { PortalProps } from './types';
 
 const Portal = ({ children, hostId }: PortalProps) => {
+  useEffect(() => {
+    if (hostId) {
+      DeviceEventEmitter.emit(hostId, children);
+    }
 
-    useEffect(() => {
-        if (hostId) {
-            DeviceEventEmitter.emit(hostId, children)
-        }
+    return () => DeviceEventEmitter.emit(`${hostId}:unmount`, children);
+  }, [children, hostId]);
 
-        return () => DeviceEventEmitter.emit(`${hostId}:unmount`, children)
-    }, [children])
+  return null;
+};
 
-    return null
-}
-
-export default Portal
+export default Portal;
