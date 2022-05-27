@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text, Button } from 'react-native';
-import { Portal, Host } from 'react-native-simple-portal';
+import { Portal, Host } from 'react-native-simple-portals';
 
 const HostLocation = () => {
   return (

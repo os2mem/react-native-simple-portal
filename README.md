@@ -7,7 +7,7 @@ Teleport your components to other dimensions 👽
 ## Installation
 
 ```sh
-npm install react-native-simple-portal
+ npm i react-native-simple-portals
 ```
 
 ## Usage
