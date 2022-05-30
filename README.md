@@ -15,7 +15,7 @@ Teleport your components to other dimensions 👽
 To begin with, add a Host component where you want to place a container for teleport the components inside and asign an unique hostId
 
 ```js
-import { Host } from 'react-native-simple-portal';
+import { Host } from '@os2mem/react-native-portal';
 
 // ...
 
@@ -34,7 +34,7 @@ Lastly wrap the content that you want to teleport with a Portal.
 The hostId has to be the same that you definee in the Host Component
 
 ```js
-import { Portal } from 'react-native-simple-portal';
+import { Portal } from '@os2mem/react-native-portal';
 
 // ...
 
