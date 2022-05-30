@@ -1,4 +1,4 @@
-# react-native-simple-portal
+# @os2mem/react-native-portal
 
 React native simple portal.
 
