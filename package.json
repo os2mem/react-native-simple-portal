@@ -47,7 +47,8 @@
   },
   "homepage": "https://github.com/os2mem/react-native-simple-portal#readme",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
