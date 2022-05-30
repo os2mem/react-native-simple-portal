@@ -1,6 +1,6 @@
 {
   "name": "@os2mem/react-native-portal",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React native simple portal",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
