@@ -1,5 +1,5 @@
 {
-  "name": "react-native-simple-portals",
+  "name": "@os2mem/react-native-portal",
   "version": "0.1.0",
   "description": "React native simple portal",
   "main": "lib/commonjs/index",
